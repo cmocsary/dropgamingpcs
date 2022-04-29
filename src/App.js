@@ -1,18 +1,13 @@
+
+import Navbar from './components/Navbar/Navbar.js';
+import "bootstrap/dist/css/bootstrap.min.css";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-           Hola Po
-           Hola Po
-           Hola Po
-           Hola Po
-           Hola Po
-           Hola Po
-        </p>
-      </header>
+    <div>
+      <Navbar></Navbar>
     </div>
   );
-}git 
+}
 
 export default App;
