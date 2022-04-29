@@ -13,6 +13,6 @@ function App() {
       </header>
     </div>
   );
-}git 
+}
 
 export default App;
