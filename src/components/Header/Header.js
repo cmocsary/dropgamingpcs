@@ -6,10 +6,11 @@ import {
   NavDropdown,
 } from "react-bootstrap";
 import LogoDrop from "../../Assets/LogoDrop.png";
+import "./Header.css";
 
 const Header = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar className="Nav" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand href="#">
           <img
