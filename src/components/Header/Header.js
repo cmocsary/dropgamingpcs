@@ -1,28 +1,36 @@
+import React from "react";
 import {
   Navbar,
   Nav,
   Container,
-  Form,
   NavDropdown,
-  FormControl,
-  Button,
 } from "react-bootstrap";
+import LogoDrop from "../../Assets/LogoDrop.png";
 
 const Header = () => {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container fluid>
-        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+    <Navbar bg="dark" variant="dark" expand="lg">
+      <Container>
+        <Navbar.Brand href="#">
+          <img
+            src={LogoDrop}
+            width="90"
+            height="90"
+            alt="Logo de Drop"
+            className="d-inline-block align-top"
+          />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: "100px" }}
             navbarScroll
-          >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Link</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
+          ></Nav>
+          <section className="d-flex me-1 my-2 my-lg-0" >
+            <Nav.Link href="#action1">Inicio</Nav.Link>
+            <Nav.Link href="#action2">Ofertas</Nav.Link>
+            <NavDropdown title="Productos" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
                 Another action
@@ -35,8 +43,14 @@ const Header = () => {
             <Nav.Link href="#" disabled>
               Link
             </Nav.Link>
-          </Nav>
-          <Form className="d-flex">
+            <Nav.Link href="#" disabled>
+              Novedades
+            </Nav.Link>
+            <Nav.Link href="#" disabled>
+              Contacto
+            </Nav.Link>
+          </section>
+          {/*   <Form className="d-flex">
             <FormControl
               type="search"
               placeholder="Search"
@@ -44,7 +58,7 @@ const Header = () => {
               aria-label="Search"
             />
             <Button variant="outline-success">Search</Button>
-          </Form>
+          </Form> */}
         </Navbar.Collapse>
       </Container>
     </Navbar>
