@@ -5,7 +5,7 @@ import {
   Container,
   NavDropdown,
 } from "react-bootstrap";
-import LogoDrop from "../../Assets/LogoDrop.png";
+import LogoDrop from "../../assets/LogoDrop.png";
 import "./Header.css";
 
 const Header = () => {
