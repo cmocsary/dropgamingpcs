@@ -37,6 +37,7 @@ const Categories = () => {
             </Col>
           </Nav>
         </Row>
+        <hr></hr>
       </Container>
     </>
   );
