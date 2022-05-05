@@ -1,0 +1,10 @@
+.categories{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
