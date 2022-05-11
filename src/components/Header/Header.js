@@ -10,7 +10,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <Navbar className="Nav" variant="dark" expand="lg">
+    <Navbar className="Nav Link" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand>
           <img
