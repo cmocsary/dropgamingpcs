@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+.fuente{
+    color: red;
+    font-family: 'Koulen', cursive;
+}
+
+.Link{
+    color: white;
+}
+
+.Link:hover {
+    color: red;
+    cursor: pointer;
+  }
+
+.copy{
+    background-color: black;
+}
+ 
+p{
+    margin: 0px;
+}

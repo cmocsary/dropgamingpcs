@@ -1,0 +1,12 @@
+.cont{
+    background-color: black;
+}
+
+hr {
+    border:2px solid;
+    color: red;
+    opacity: 100;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
