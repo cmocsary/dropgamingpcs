@@ -31,7 +31,7 @@ const Header = () => {
           >
           <section className="d-flex me-1 my-2 my-lg-0" >
             <Link to='/' className='nav-link' exact={true}>Home</Link>
-            <Link to="/ofertas" className='nav-link' exact={true}>Ofertas</Link>
+            <Link to="/productos" className='nav-link' exact={true}>Productos</Link>
             <Link to="/sobreNosotros" className='nav-link' exact={true}>Sobre Nosotros</Link>
             <Link to="/novedades" className='nav-link' exact={true}>Novedades</Link>
             <Link to="/contacto" className='nav-link' exact={true}>Contacto</Link>
